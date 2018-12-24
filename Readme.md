@@ -83,14 +83,18 @@ miner.start()
 miner.stop()
 ```
 
-将`contract`文件夹的合约导入`remix-ide`，编译`civilization.sol`文件，在run标签卡选择web3 provider，输入http://localhost:8547（根据前面的配置改变端口号），deploy部署条约
+ - 将`contract`文件夹的合约导入`remix-ide`
+ - 编译`civilization.sol`文件
+ - 在run标签卡选择web3 provider，输入`http://localhost:8547`（根据前面的配置改变端口号）
+ - deploy部署条约
 
 ```bash
 miner.start()
 
 miner.stop()
 ```
-部署完成后将合约地址和合约api更新到`webapp/config/index.js`的`contractAddress`和`contractInterface`中，同时在geth中执行`admin.nodeInfo`，获得节点地址，加入`webapp/config/index.js`的`nodeInfo`数组中
+ - 部署完成后将合约地址和合约api更新到`webapp/config/index.js`的`contractAddress`和`contractInterface`中
+ - 在geth中执行`admin.nodeInfo`，获得节点地址，加入`webapp/config/index.js`的`nodeInfo`数组中
 
 ### 运行效果
 
