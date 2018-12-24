@@ -1,0 +1,11 @@
+
+admin.nodeInfo
+miner.stop()
+miner.start()
+miner.stop()
+miner.start()
+miner.stop()
+miner.start()
+miner.stop()
+miner.start()
+miner.stop()
